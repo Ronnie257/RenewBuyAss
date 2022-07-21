@@ -4,6 +4,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose, faPlus } from "@fortawesome/free-solid-svg-icons";
 function Todo() {
+  let [area, setarea] = React.useState("");
+  function click() {
+    var x = document.getElementById("textarea").value;
+    document.getElementById("text").style.display = "block";
+    setarea(x);
+  }
+
   return (
     <>
       <button
@@ -39,7 +46,7 @@ function Todo() {
               </button>
             </div>
             <div class="modal-body">
-              <textarea rows="5" cols="53"></textarea>
+              <textarea id="textarea" rows="5" cols="53"></textarea>
             </div>
             <div class="modal-footer">
               <button
@@ -49,12 +56,20 @@ function Todo() {
               >
                 Close
               </button>
-              <button type="button" class="btn btn-primary">
+              <button
+                type="button"
+                onClick={click}
+                data-dismiss="modal"
+                class="btn btn-primary"
+              >
                 Save changes
               </button>
             </div>
           </div>
         </div>
+      </div>
+      <div id="text">
+        <span>{area}</span>
       </div>
     </>
   );

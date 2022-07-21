@@ -104,3 +104,13 @@ tr:hover {
   border-radius: 7px;
   background-color: rgba(204, 224, 250, 0.363);
 }
+#text {
+  background-color: white;
+  border: none;
+  box-shadow: 2px 2px 17px rgba(201, 201, 201, 0.493);
+  border-radius: 6px;
+  padding: 10px;
+  min-height: 30px;
+  margin: 10px;
+  display: none;
+}
