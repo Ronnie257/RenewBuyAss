@@ -1,0 +1,106 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#top {
+  border-right: 1px solid rgba(128, 128, 128, 0.658);
+}
+.studio {
+  font-size: 20px;
+  font-weight: bolder;
+}
+#side {
+  margin-top: 10%;
+  background-color: rgba(255, 255, 255, 0.534);
+
+  text-align: center;
+}
+.icon {
+  align-items: flex-start;
+  padding-left: 20px;
+}
+.icon1 {
+  align-items: flex-start;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+.name {
+  text-align: start;
+  display: flex-start;
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+tr:hover {
+  cursor: pointer;
+  border-right: 3px solid rgb(16, 158, 35);
+}
+.input {
+  width: 320px;
+  float: left;
+  margin-top: 20px;
+  border: none;
+  background-color: ghostwhite;
+  padding: 7px;
+  border-radius: 8px;
+}
+.btn {
+  float: left;
+  margin-top: 20px;
+}
+.btn1 {
+  margin-top: 20px;
+  float: right;
+}
+.img {
+  margin-top: 20px;
+  float: right;
+  background-color: rgb(201, 201, 201);
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 2px solid gray;
+}
+.co {
+  width: 250px;
+  border: none;
+  height: 700px;
+  border-radius: 13px;
+  float: left;
+  background-color: #f6fafb;
+  padding: 20px;
+  margin: 25px;
+}
+.ff {
+  width: 800px;
+  height: 800px;
+  border: none;
+  border-radius: 13px;
+  float: left;
+  background-color: #ffffff;
+}
+.todo {
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+.bt {
+  border: none;
+  border-radius: 7px;
+  padding: 4px;
+  width: 100%;
+  background-color: rgba(204, 224, 250, 0.363);
+}
+.projects {
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 200px;
+  margin-top: 90px;
+}
+.bt1 {
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(204, 224, 250, 0.363);
+}
